@@ -1,0 +1,51 @@
+a.delete {
+	background: transparent url("delete.gif");
+	height: 15px;
+	width: 15px;
+	display: block;
+	float: right;
+	text-decoration: none;
+	position: absolute;
+	right: 10px;
+	bottom: 13px;
+	}
+ul.sortable {
+	background-color: #666;
+	border: 1px solid black;
+	color: #333;
+	float: left;
+	height: 310px;
+	list-style-type: none;
+	margin: 0 100px 10px 0;
+	min-height: 1px;
+	padding: 0;
+	width: 200px;
+	}
+ul.sortable li	{
+	background: #EEEEEE none repeat scroll 0 0;
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 10px;
+	height: 19px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	}
+ul#phonetic li				{ cursor: move; }
+ul.sortable li span.left 	{ float: left; }
+ul li.lhead {
+	background-color: #777777;
+	color: white;
+	}
+.filter	{ 
+	clear: both; 
+	float: none; 
+	overflow: hidden;
+	padding-left: 0px;
+	margin: 0; 
+	}
+.filter .subsubsub 	{ margin: 0; }
+.wrap form	{ 
+	padding-top: 1px;
+	clear: both; 
+	}
